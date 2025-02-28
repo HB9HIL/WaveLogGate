@@ -1,11 +1,14 @@
 {
-  "name": "wavelog-gate-by-dj7nt",
-  "productName": "WaveLogGate",
+  "name": "wavelog-gate",
+  "productName": "Wavelog Gate by DJ7NT",
   "description": "Gateway for connecting WSJT-* and FLRig to Wavelog",
   "keywords": [],
   "main": "./main.js",
   "version": "1.1.1",
-  "author": "DJ7NT",
+  "author": {
+	  "name": "DJ7NT",
+	  "email": "info@wavelog.org"
+  },
   "scripts": {
     "start": "electron-forge start",
     "rebuild-xml": "electron-rebuild -f -w xml2js",
