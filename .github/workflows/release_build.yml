@@ -5,7 +5,7 @@ on:
     tags:
       - 'v*'
     branches:
-      - master
+      - test_dmg
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
